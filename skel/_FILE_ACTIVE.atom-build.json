@@ -1,0 +1,10 @@
+{
+  "cmd": "~/code-workspace/plask/plask-toolkit/bin/PlaskLauncher.app/Contents/Resources/Plask.app/Contents/MacOS/Plask",
+  "args": [ "{FILE_ACTIVE}" ],
+  "sh": true,
+  "cwd": "{FILE_ACTIVE_PATH}",
+  "env": {
+
+  },
+  "errorMatch": "^(?<absFile>[^\\:]+):(?<line>\\d+)"
+}
